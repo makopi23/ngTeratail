@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<title>ngTeratail</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js">
+
+</script>
+<script src="./js/ngTeratail.js"></script>
+<style>
+  input.ng-invalid{
+    border: solid 1px red;
+  }
+  .done{
+    text-decoration: line-through;
+  }
+</style>
+</head>
+
+<!-- Angularのバリデートだけ有効化するため novalidate 付ける -->
+<!-- <body ng-controller="appCtrl as app" novalidate> -->
+<body>
+<todo></todo>
+</body>
+</html>
